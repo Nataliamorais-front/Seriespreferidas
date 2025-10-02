@@ -11,14 +11,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body, html{
-    background-color: #292929;
-}
+
 
 header{
     background-color:lab(37.82% 62.59 -82.71 / 0.349);
     width: 100%;
 }
+
 
 header h1{
     padding: 15px;
@@ -30,6 +29,7 @@ header h1{
 
 .catalogo{
     text-align: center;
+
     
 }
 
@@ -37,7 +37,7 @@ div.filme{
     display: inline-block;
     margin-left: 10px;
     width: 280px;
-    padding: 50px;
+    padding: 10px;
     vertical-align: top;
     position: relative;
 }
@@ -69,9 +69,10 @@ div.sinopse{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+   
     height: 100%; 
     transform: translate(20%, 10%);
+    
    
     
 }
@@ -90,8 +91,8 @@ div.sinopse:hover{
 }*/
 
 div p{
-    width: 200px;
-    padding: 20px;
+    width: 180px;
+    padding: 10px;
     text-shadow: 2px 1px 3px black;
     background-color:  rgba(0, 0, 0, 0.267);
     border-radius: 20px;
