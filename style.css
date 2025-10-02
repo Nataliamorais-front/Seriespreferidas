@@ -73,10 +73,10 @@ div.sinopse{
     height: 100%; 
 
     transform: translate(20%, 10%);
-    opacity: 0;
+   
     
 }
-
+/*
 div.filme:hover{
     transform: translate(5%, -3%);
     transition-duration: 0.4s;
@@ -88,7 +88,7 @@ div.sinopse:hover{
     
 
 
-}
+}*/
 
 div p{
     width: 200px;
